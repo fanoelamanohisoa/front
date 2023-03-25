@@ -1,0 +1,115 @@
+body
+
+{
+
+    margin-left: 0px;
+
+    margin-top: 0px;
+
+    margin-right: 0px;
+
+    margin-bottom: 0px;
+
+    font-family: arial, Helvetica, sans-serif;
+
+    font-size: 13px;
+
+    color: #666666;
+
+    background-color: #999998;
+
+    line-height: 22px;
+
+}
+
+.main-navigation .round-border-topright {width:10px; height:10px; position:absolute; z-index:100; margin:0 0 0 190px; background:url(images/bg_corner_topright.gif) no-repeat;}
+
+.mainnav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #022545;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999;
+    display: block;
+    
+}
+
+.mainnav:hover,mainnav:active,mainnav:focus{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999;
+    display: block;
+    background-color: #E8E8E8;
+    
+}
+
+/* css right side sub_menu */
+
+li.menu-reviews{
+    display: block;
+    
+    
+}
+ul.submenu{
+    display: none;
+    width: 100%;
+   
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #022545;
+    
+}
+li.menu-reviews:hover ul.submenu{
+    display: block;
+    width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+ul.submenu li{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999;
+}
+ul.submenu li:first-child{
+    padding-top: calc(-50%)
+}
+ul.submenu li:last-child{
+    border-bottom:none
+}
+ul.submenu li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 12px;
+    
+    text-decoration: none;
+    padding-left: 10px;
+    
+        padding-top: 5px;
+    
+        padding-bottom: 5px;
+}
